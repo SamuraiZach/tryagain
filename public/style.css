@@ -39,7 +39,7 @@
     left: 1%;
     width: 5%;
     height: 50%;
-    visibility: hidden;
+    visibility: visible;
 }
 
 .logoutbuttonT {

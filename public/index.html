@@ -53,12 +53,11 @@
             <button class="closeReg" id="closeReg">Submit</button>
         </dialog>
         <p style="position:absolute;left: 1%;top: 50%;" id="da">Username:</p>
-        <button id="logoutbutton" class="logoutbutton">Logout</button>
     </div>
     <div id="meatofbody">
         <div id="CREATEnJOINtabs">
             <!--<button id="signInWithGoogle" style="position:absolute; left: 25%; top: 25%;text-align:center; visibility: visible;">Login with your Google</button>-->
-            <h1 id="introbody">Welcome to the tournament! Please sign in above to get started!</h1>
+            <h1 id="introbody" class="introbody">Welcome to the tournament! Please sign in above to get started!</h1>
             <button id="createtourney" class="createtourney">CREATE TOURNEY HERE!</button>
             <dialog class="modalCreate" id="modalCreate">
                 <h1 style="text-align: center;">Create Your Tournament!</h1>
@@ -70,7 +69,7 @@
                 <input type="text" id="nump" name="nump" class="nump" value=""></input>
                 <label for="gpwd">Password (blank if none):</label>
                 <input type="password" id="gpwd" name="gpwd" class="gpwd" value=""></input>
-                <button class="closeCreate">Create!</button>
+                <button class="closeCreate" id="closeCreate">Create!</button>
             </dialog>
             <button id="jointourney" class="jointourney">JOIN A TOURNEY!</button>
             <dialog class="modalJoin" id="modalJoin">
@@ -79,7 +78,7 @@
                 <input type="text" id="tname" name="tname" class="tname" value=""></input>
                 <label for="gpwd">Password (blank if none):</label>
                 <input type="password" id="gpwd" name="gpwd" class="gpwd" value=""></input>
-                <button class="closeJoin" onclick="closeJoin()">Join!</button>
+                <button class="closeJoin">Join!</button>
             </dialog>
         </div>
         <div id="tournamentview">
